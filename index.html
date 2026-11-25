@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Constanza Cauchupan | Portafolio</title>
+<meta name="description" content="Portafolio de Constanza Cauchupan, estudiante de Ingeniería Civil Informática. Product Owner y desarrollo web y móvil.">
+<meta property="og:title" content="Constanza Cauchupan | Portafolio">
+<meta property="og:description" content="Product Owner y desarrollo web y móvil. Busco práctica profesional.">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400..700&family=Shantell+Sans:wght@500;600&display=swap">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="barra">
+  <div class="ancho barra-fila">
+    <a class="marca" href="#inicio"><img src="img/icono.svg" alt="" width="30" height="30"><span>Constanza Cauchupan</span></a>
+    <nav aria-label="Principal"><a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <section id="inicio">
+    <div class="portada-texto"><div class="ancho">
+      <p class="saludo">Hola, soy Constanza.</p>
+      <h1>De lo que pide el cliente a la pantalla que lo resuelve.</h1>
+      <p class="bajada">Estudio Ingeniería Civil Informática en Santiago. Fui Product Owner en dos proyectos premiados en mi universidad, y también desarrollo interfaces web.</p>
+    </div></div>
+
+    <div class="portada-tablero"><div class="ancho">
+    <div class="tablero" role="group" aria-label="Mi tablero">
+      <section class="columna" data-col="0" aria-labelledby="c0"><h2 id="c0">Por hacer</h2>
+        <button class="nota n-orquidea" id="nota-practica" type="button"><strong>Práctica profesional</strong><span id="nota-pista">Muéveme a En curso</span></button>
+      </section>
+      <section class="columna" data-col="1" aria-labelledby="c1"><h2 id="c1">En curso</h2>
+        <div class="nota n-celeste"><strong>Ing. Civil Informática</strong><span>85 % de la malla</span></div>
+        <div class="nota n-celeste"><strong>Curso de Claude</strong><span>En línea, 2026</span></div>
+      </section>
+      <section class="columna" data-col="2" aria-labelledby="c2"><h2 id="c2">Hecho</h2>
+        <div class="nota n-rosa"><strong>Plataforma Gestionar Esperanzas</strong><span>Equipo ganador</span></div>
+        <div class="nota n-rosa"><strong>App Dulce Gisela</strong><span>Mejor Prototipo Digital</span></div>
+      </section>
+    </div>
+    <p class="tablero-aviso" id="aviso" role="status">Estoy buscando práctica profesional. <a href="#contacto">Conversemos</a></p>
+    </div></div>
+  </section>
+
+  <section class="ancho seccion" id="proyectos">
+    <h2 class="titulo">Proyectos</h2>
+    <div class="proyectos" id="lista-proyectos"></div>
+    <noscript><p>Activa JavaScript para ver los proyectos.</p></noscript>
+    <h3 class="subtitulo">Otros trabajos</h3>
+    <ul class="otros" id="lista-otros"></ul>
+  </section>
+
+  <section class="franja" id="sobre-mi">
+    <div class="ancho sobre">
+      <figure class="foto"><img src="img/constanza.webp" alt="Constanza Cauchupan" width="640" height="640"></figure>
+      <div class="sobre-texto">
+        <h2 class="titulo">Sobre mí</h2>
+        <p>Estudio Ingeniería Civil Informática en la Universidad Autónoma de Chile, sede Providencia, desde 2022. Tengo aprobado el 85 % de la malla.</p>
+        <p>He trabajado en equipos con metodologías ágiles, desde los requerimientos hasta la interfaz. Me interesa especialmente la inteligencia artificial.</p>
+        <p>Soy vicepresidenta de Mujeres en la Ingeniería, un grupo que reúne a estudiantes de Ingeniería Civil Informática, Química e Industrial.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ancho seccion dos">
+    <div>
+      <h2 class="titulo">Trayectoria</h2>
+      <ol class="linea">
+        <li><span>2026</span><div><strong>Vicepresidenta, Mujeres en la Ingeniería</strong><p>Salidas a empresas y participación en el Encuentro Estudiantil de Mujeres en Ingeniería, el 7 de noviembre.</p></div></li>
+        <li><span>2026</span><div><strong>Equipo ganador de Consultoría Informática</strong><p>Por la participación y el aporte en los proyectos de VcM y A+S.</p></div></li>
+        <li><span>2026</span><div><strong>Mejor Prototipo Digital</strong><p>Otorgado por los profesores al proyecto Dulce Gisela.</p></div></li>
+        <li><span>2026</span><div><strong>Scrum Foundation Professional (SFPC)</strong><p>CertiProf, examen aprobado.</p></div></li>
+        <li><span>2026</span><div><strong>Technology Conference Chile</strong><p>Asistente. Organizada por Digevo, NVIDIA y Oracle.</p></div></li>
+        <li><span>2022</span><div><strong>Ingreso a Ingeniería Civil Informática</strong><p>Universidad Autónoma de Chile.</p></div></li>
+      </ol>
+    </div>
+    <div>
+      <h2 class="titulo">Habilidades</h2>
+      <dl class="habilidades">
+        <dt>Web</dt><dd>Astro, HTML, CSS, JavaScript, Django (Python), Node.js, microservicios, API REST</dd>
+        <dt>Móvil</dt><dd>Flutter (Dart)</dd>
+        <dt>Datos</dt><dd>Supabase (PostgreSQL)</dd>
+        <dt>Equipo</dt><dd>Scrum, trabajo por sprints, Jira, Git, GitHub</dd>
+        <dt>IA</dt><dd>Claude, ChatGPT, Gemini</dd>
+        <dt>Electrónica</dt><dd>ESP32, Arduino (C++)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="ancho contacto-fila">
+      <div><h2>¿Tienes una práctica para mí?</h2><p>Escríbeme y conversemos.</p></div>
+      <div class="botones">
+        <a class="boton" href="mailto:cauchupanconstanza@gmail.com">cauchupanconstanza@gmail.com</a>
+        <a class="boton suave" href="https://www.linkedin.com/in/constanza-cauchupan-bravo-024b63210" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="boton suave" href="https://github.com/constanzacauchupan" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog id="detalle" aria-labelledby="d-titulo"></dialog>
+<script src="js/proyectos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
