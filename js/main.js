@@ -42,7 +42,17 @@ PROYECTOS.forEach((p) => {
 OTROS.forEach((p) => {
   const li = crear("li");
   const texto = crear("div");
-  texto.append(enlaceExterno(p.url, p.titulo, "otro-enlace"), crear("p", "", p.resumen));
+  let titulo;
+  if (p.contexto) {
+    titulo = crear("button", "otro-enlace", p.titulo);
+    titulo.type = "button";
+    titulo.addEventListener("click", () => abrirDetalle(p));
+  } else {
+    titulo = enlaceExterno(p.url, p.titulo, "otro-enlace");
+  }
+  texto.append(titulo, crear("p", "", p.resumen));
+  const datos = [p.rol, p.fecha].filter(Boolean).join(" · ");
+  if (datos) texto.append(crear("p", "meta", datos));
   li.append(texto, etiquetas(p.tecnologias));
   $("lista-otros").append(li);
 });

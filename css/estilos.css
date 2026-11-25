@@ -97,8 +97,9 @@ h1 { font-size: clamp(2.3rem, 6vw, 4rem); font-weight: 800; letter-spacing: -.02
 }
 .otros { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
 .otros > li { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .6rem 1.5rem; padding-block: 1rem; border-bottom: 1px solid var(--linea); }
-.otros > li > div { min-width: 0; }
-.otro-enlace { font-weight: 600; }
+.otros > li > div { min-width: 0; flex: 1 1 24rem; }
+.otros > li > .etiquetas { flex: 0 1 24rem; justify-content: flex-end; }
+.otro-enlace { padding: 0; border: 0; background: none; color: var(--acento); font-weight: 600; font-size: 1.1rem; text-align: left; text-decoration: underline var(--orquidea) 2px; text-underline-offset: .2em; cursor: pointer; }
 
 /* Sobre mí */
 .franja { background: var(--franja); }
@@ -143,6 +144,7 @@ body:has(dialog[open]) { overflow: hidden; }
 @media (max-width: 46rem) {
   .proyectos, .dos, .sobre { grid-template-columns: minmax(0, 1fr); }
   .foto { max-width: 15rem; }
+  .otros > li > .etiquetas { flex-basis: 100%; justify-content: flex-start; }
 }
 @media (max-width: 36rem) {
   .tablero { grid-template-columns: minmax(0, 1fr); }

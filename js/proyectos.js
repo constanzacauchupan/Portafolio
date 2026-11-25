@@ -78,6 +78,30 @@ const PROYECTOS = [
     tecnologias: ["ESP32", "Arduino", "C++", "DHT11", "Control ON/OFF"]
   },
   {
+    titulo: "Control de inventario para Barrio Chick'en",
+    resumen: "Sistema web para manejar los insumos, proveedores y pedidos de un local de comida.",
+    rol: "Equipo de desarrollo",
+    fecha: "Primer semestre 2025",
+    imagen: "img/barrio-chicken.webp",
+    alt: "Pantalla de productos con stock, proveedor y fecha de caducidad",
+    contexto: "Proyecto del ramo Análisis y Modelamiento de Sistemas. El local no tenía un sistema central para su inventario y registraba a sus proveedores de forma manual o dispersa. Éramos ocho personas y trabajamos con Scrum en tres sprints, de marzo a junio de 2025.",
+    aportes: [
+      "Sprint 1: programé, en pareja, funciones del inventario.",
+      "Sprint 2: añadí, también en pareja, las funciones de registro de proveedores.",
+      "Sprint 3: trabajé en el filtro por categoría, que muestra los proveedores e insumos que corresponden al crear un pedido.",
+      "Participé en la planificación, las pruebas y las retrospectivas de cada sprint."
+    ],
+    tecnologias: ["Scrum", "Historias de usuario", "Criterios de aceptación", "Product Backlog", "Desarrollo web"]
+  }
+];
+
+/*
+  OTROS PROYECTOS: salen en una lista debajo de los principales.
+  Si tienen "contexto" se abren con su detalle; si no, llevan al enlace de "url".
+  Para hacer principal uno de estos, mueve su bloque a la lista de arriba.
+*/
+const OTROS = [
+  {
     titulo: "Ciberseguridad para una plataforma de viajes con IA",
     resumen: "Plan de seguridad y continuidad para una plataforma que crea itinerarios con inteligencia artificial.",
     rol: "Frontend y calidad",
@@ -126,25 +150,22 @@ const PROYECTOS = [
     tecnologias: ["Django", "Python", "HTML", "CSS", "JavaScript"]
   },
   {
-    titulo: "Control de inventario para Barrio Chick'en",
-    resumen: "Sistema web para manejar los insumos, proveedores y pedidos de un local de comida.",
-    rol: "Equipo de desarrollo",
-    fecha: "Primer semestre 2025",
-    imagen: "img/barrio-chicken.webp",
-    alt: "Pantalla de productos con stock, proveedor y fecha de caducidad",
-    contexto: "Proyecto del ramo Análisis y Modelamiento de Sistemas. El local no tenía un sistema central para su inventario y registraba a sus proveedores de forma manual o dispersa. Éramos ocho personas y trabajamos con Scrum en tres sprints, de marzo a junio de 2025.",
+    titulo: "Bicicleta Arduino con sistema de monitoreo",
+    resumen: "Bicicleta armada con un kit de Arduino y un sistema que envía, procesa y muestra datos de sensores.",
+    rol: "Trabajo en equipo",
+    fecha: "Ago. – nov. 2023",
+    imagen: "img/bicicleta.webp",
+    tituloAportes: "Las tres etapas",
+    alt: "Bicicleta armada con el kit de ingeniería Arduino",
+    contexto: "Proyecto de cuatro personas para el Taller de Aplicaciones Informáticas. Empezó con la bicicleta física y terminó con una página web que muestra lecturas de velocidad guardadas y datos de sensores simulados, con alertas visuales.",
     aportes: [
-      "Sprint 1: programé, en pareja, funciones del inventario.",
-      "Sprint 2: añadí, también en pareja, las funciones de registro de proveedores.",
-      "Sprint 3: trabajé en el filtro por categoría, que muestra los proveedores e insumos que corresponden al crear un pedido.",
-      "Participé en la planificación, las pruebas y las retrospectivas de cada sprint."
+      "Etapa 1: armado de la bicicleta con el kit de ingeniería Arduino Rev2 y modelos de control en MATLAB y Simulink.",
+      "Etapa 2: sistema en Python con dos sensores, un middleware, un servidor RPC y una aplicación cliente, conectados por UDP, TCP y RPC.",
+      "Etapa 3: middleware en Node.js con Socket.IO y un cliente web que muestra los datos recibidos y procesados.",
+      "El cliente de escritorio avisa con colores y sonido según la velocidad y la inclinación."
     ],
-    tecnologias: ["Scrum", "Historias de usuario", "Criterios de aceptación", "Product Backlog", "Desarrollo web"]
-  }
-];
-
-/* Lista corta, para trabajos más pequeños. */
-const OTROS = [
+    tecnologias: ["Arduino", "MATLAB y Simulink", "Python", "Node.js", "UDP, TCP y RPC"]
+  },
   {
     titulo: "App de registro de usuarios",
     resumen: "Lista, formulario con validaciones, perfil y configuración. Trabajo en equipo, abril 2026.",
