@@ -37,7 +37,7 @@ button { font: inherit; color: inherit; }
 .barra-fila { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .25rem 1.5rem; padding-block: .75rem; }
 .marca { display: flex; align-items: center; gap: .6rem; color: #fff; font: 700 1.05rem var(--display); text-decoration: none; }
 nav { display: flex; gap: 1.5rem; }
-nav a { color: var(--rosa); text-decoration: none; font-weight: 500; padding-block: .25rem; }
+nav a { white-space: nowrap; color: var(--rosa); text-decoration: none; font-weight: 500; padding-block: .25rem; }
 nav a:hover { text-decoration: underline; }
 
 /* Portada */
@@ -152,4 +152,7 @@ body:has(dialog[open]) { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
+}
+@media (max-width: 23rem) {
+  nav { gap: .9rem; font-size: .95rem; }
 }

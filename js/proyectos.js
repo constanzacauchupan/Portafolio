@@ -28,18 +28,18 @@ const PROYECTOS = [
   },
   {
     titulo: "Dulce Gisela, app móvil",
-    resumen: "App en Flutter para un negocio de repostería.",
+    resumen: "Prototipo en Figma y app en Flutter para un negocio de repostería.",
     rol: "Product Owner",
     fecha: "Primer semestre 2026",
     premio: "Mejor Prototipo Digital",
-    imagen: "img/app-reposteria.svg",
-    alt: "Ilustración de un celular con un catálogo de repostería",
-    contexto: "Proyecto universitario para un negocio de repostería, trabajado en dos ramos: Ingeniería de Software y Desarrollo de Aplicaciones Móviles. Los profesores le dieron el premio a Mejor Prototipo Digital.",
+    imagen: "img/dulce-gisela-app.webp",
+    alt: "Tres pantallas del prototipo: bienvenida, inicio con productos y resumen del negocio",
+    contexto: "Proyecto universitario para un negocio de repostería, trabajado en dos ramos: Ingeniería de Software y Desarrollo de Aplicaciones Móviles. El prototipo en Figma tiene una parte para clientes, con catálogo, carrito y pedidos, y otra para la administradora, con resumen de ventas, pedidos, productos y clientes. Con él ganamos el premio a Mejor Prototipo Digital, otorgado por los profesores.",
     aportes: [
       "Preparé requerimientos, documentación y diagramas.",
       "Fui Product Owner durante el desarrollo de la app en Flutter."
     ],
-    tecnologias: ["Flutter", "Dart", "Requerimientos", "Diagramas"]
+    tecnologias: ["Figma", "Flutter", "Dart", "Requerimientos", "Diagramas"]
   },
   {
     titulo: "Dulce Gisela, sitio web",
@@ -61,21 +61,6 @@ const PROYECTOS = [
     ]
   },
   {
-    titulo: "Gestión de incidencias municipales",
-    resumen: "Aplicación web para solicitudes de vecinos, encuestas y cuadrillas municipales.",
-    rol: "Desarrolladora",
-    fecha: "Segundo semestre 2025",
-    imagen: "img/incidencias.svg",
-    alt: "Ilustración de tres paneles: departamento, territorial y cuadrilla",
-    contexto: "Proyecto en equipo del ramo Desarrollo Web. Cada rol tiene su panel y hay un flujo para aprobar y responder las incidencias.",
-    aportes: [
-      "Trabajé en los modelos de datos, la plantilla base y las vistas principales.",
-      "Hice formularios y filtros de listados.",
-      "Participé en los paneles por rol: departamento, territorial y cuadrilla."
-    ],
-    tecnologias: ["Django", "Python", "HTML", "CSS", "JavaScript"]
-  },
-  {
     titulo: "GreenControl, invernadero automático",
     resumen: "Prototipo con ESP32 que mide el ambiente y simula el control de ventilación y riego.",
     rol: "Proyecto en equipo, Especialidad III",
@@ -91,6 +76,37 @@ const PROYECTOS = [
       "Entrega las lecturas en formato CSV cada dos segundos."
     ],
     tecnologias: ["ESP32", "Arduino", "C++", "DHT11", "LCD I2C"]
+  },
+  {
+    titulo: "Gestión de incidencias municipales",
+    resumen: "Aplicación web para solicitudes de vecinos, encuestas y cuadrillas municipales.",
+    rol: "Desarrolladora",
+    fecha: "Segundo semestre 2025",
+    imagen: "img/incidencias.svg",
+    alt: "Ilustración de tres paneles: departamento, territorial y cuadrilla",
+    contexto: "Proyecto en equipo del ramo Desarrollo Web. Cada rol tiene su panel y hay un flujo para aprobar y responder las incidencias.",
+    aportes: [
+      "Trabajé en los modelos de datos, la plantilla base y las vistas principales.",
+      "Hice formularios y filtros de listados.",
+      "Participé en los paneles por rol: departamento, territorial y cuadrilla."
+    ],
+    tecnologias: ["Django", "Python", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    titulo: "Control de inventario para Barrio Chick'en",
+    resumen: "Sistema web para manejar los insumos, proveedores y pedidos de un local de comida.",
+    rol: "Equipo de desarrollo",
+    fecha: "Primer semestre 2025",
+    imagen: "img/barrio-chicken.webp",
+    alt: "Pantalla de productos con stock, proveedor y fecha de caducidad",
+    contexto: "Proyecto del ramo Análisis y Modelamiento de Sistemas. El local no tenía un sistema central para su inventario y registraba a sus proveedores de forma manual o dispersa. Éramos ocho personas y trabajamos con Scrum en tres sprints, de marzo a junio de 2025.",
+    aportes: [
+      "Sprint 1: programé, en pareja, funciones del inventario.",
+      "Sprint 2: añadí, también en pareja, las funciones de registro de proveedores.",
+      "Sprint 3: trabajé en el filtro por categoría, que muestra los proveedores e insumos que corresponden al crear un pedido.",
+      "Participé en la planificación, las pruebas y las retrospectivas de cada sprint."
+    ],
+    tecnologias: ["Scrum", "Historias de usuario", "Criterios de aceptación", "Product Backlog", "Desarrollo web"]
   }
 ];
 
