@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui,sans-serif" font-weight="600" font-size="18" fill="#0E1B48"><rect width="640" height="400" fill="#C7D6EA"/>
+<g stroke="#0E1B48" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M176 168c-44 0-72-26-72-60s28-58 64-58c14-26 42-40 74-40 44 0 78 26 86 64 34 0 58 20 58 48s-24 46-56 46z" fill="#fff" transform="translate(76 4)"/>
+<path d="M214 172v44M320 172v44M426 172v44" fill="none"/>
+<rect x="52" y="216" width="536" height="152" rx="14" fill="#fff"/>
+<g stroke-width="4"><rect x="76" y="262" width="148" height="82" rx="8" fill="#E2CAD8"/><rect x="246" y="262" width="148" height="82" rx="8" fill="#C18DB4"/><rect x="416" y="262" width="148" height="82" rx="8" fill="#87A7D0"/></g></g>
+<g text-anchor="middle"><text x="320" y="98" font-size="22">Cloud</text><text x="320" y="246">Red privada (VPC)</text>
+<text x="150" y="298">Aplicación</text><text x="150" y="322" font-size="15">Kubernetes</text>
+<text x="320" y="298">HPC</text><text x="320" y="322" font-size="15">CPU y GPU</text>
+<text x="490" y="298">Datos</text><text x="490" y="322" font-size="15">Cifrados</text></g></svg>

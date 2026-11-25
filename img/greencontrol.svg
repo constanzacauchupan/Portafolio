@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400"><rect width="640" height="400" fill="#C7D6EA"/>
-<g stroke="#0E1B48" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none"><rect x="56" y="76" width="348" height="130" rx="14" fill="#27425D"/><rect x="82" y="100" width="296" height="82" rx="6" fill="#E2CAD8"/>
-<path d="M470 350l14-90h84l14 90z" fill="#C18DB4"/><path d="M460 260h132v-28H460z" fill="#C18DB4"/><path d="M526 232v-112"/><path d="M526 168c-44 0-62-30-62-58 40 0 62 22 62 58zM526 136c0-38 24-62 64-62 0 40-24 62-64 62z" fill="#87A7D0"/>
-<rect x="56" y="250" width="348" height="104" rx="14" fill="#fff"/><path d="M104 206v44M136 206v44M168 206v44M404 302h60"/>
-<circle cx="116" cy="302" r="20" fill="#C18DB4"/><circle cx="256" cy="302" r="20" fill="#87A7D0"/></g>
-<g font-family="ui-monospace,Consolas,monospace" font-weight="700" font-size="27" fill="#0E1B48"><text x="98" y="136">T:26.4°C V:OFF</text><text x="98" y="170">Suelo:45% B:OFF</text></g>
-<g font-family="system-ui,sans-serif" font-weight="600" font-size="17" fill="#0E1B48"><text x="146" y="308">Ventilador</text><text x="286" y="308">Bomba</text></g></svg>

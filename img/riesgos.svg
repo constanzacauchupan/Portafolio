@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui,sans-serif" font-weight="600" font-size="18" fill="#0E1B48"><rect width="640" height="400" fill="#E2CAD8"/>
+<g stroke="#0E1B48" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M158 76c34 22 66 30 100 32v90c0 66-42 108-100 132-58-24-100-66-100-132v-90c34-2 66-10 100-32z" fill="#87A7D0"/>
+<path d="M112 206l32 34 62-72" fill="none" stroke="#fff" stroke-width="16"/>
+<g stroke-width="4">
+<rect x="340" y="62" width="80" height="76" fill="#C7D6EA"/><rect x="420" y="62" width="80" height="76" fill="#C18DB4"/><rect x="500" y="62" width="80" height="76" fill="#C18DB4"/>
+<rect x="340" y="138" width="80" height="76" fill="#fff"/><rect x="420" y="138" width="80" height="76" fill="#87A7D0"/><rect x="500" y="138" width="80" height="76" fill="#C18DB4"/>
+<rect x="340" y="214" width="80" height="76" fill="#fff"/><rect x="420" y="214" width="80" height="76" fill="#fff"/><rect x="500" y="214" width="80" height="76" fill="#C7D6EA"/></g></g>
+<g text-anchor="middle" font-size="24"><text x="380" y="108">5</text><text x="460" y="108">15</text><text x="540" y="108">25</text><text x="380" y="184">3</text><text x="460" y="184">9</text><text x="540" y="184">15</text><text x="380" y="260">1</text><text x="460" y="260">3</text><text x="540" y="260">5</text></g>
+<g text-anchor="middle"><text x="380" y="316" font-size="16">1</text><text x="460" y="316" font-size="16">3</text><text x="540" y="316" font-size="16">5</text><text x="460" y="344">Impacto</text><text transform="translate(306 176) rotate(-90)">Probabilidad</text></g>
+<g text-anchor="middle" font-size="16"><text x="326" y="106">5</text><text x="326" y="182">3</text><text x="326" y="258">1</text></g></svg>
