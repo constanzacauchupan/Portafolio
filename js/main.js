@@ -47,8 +47,10 @@ OTROS.forEach((p) => {
     titulo = crear("button", "otro-enlace", p.titulo);
     titulo.type = "button";
     titulo.addEventListener("click", () => abrirDetalle(p));
-  } else {
+  } else if (p.url) {
     titulo = enlaceExterno(p.url, p.titulo, "otro-enlace");
+  } else {
+    titulo = crear("strong", "otro-titulo", p.titulo);
   }
   texto.append(titulo, crear("p", "", p.resumen));
   const datos = [p.rol, p.fecha].filter(Boolean).join(" · ");

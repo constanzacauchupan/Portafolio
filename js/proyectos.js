@@ -23,8 +23,7 @@ const PROYECTOS = [
       "También trabajé en la gestión de países, las coberturas de coordinadores y las solicitudes de acceso de invitados.",
       "El equipo usó microservicios en Node.js, con Supabase (PostgreSQL) como base de datos."
     ],
-    tecnologias: ["Astro", "TypeScript", "Tailwind CSS", "Node.js", "Supabase", "Scrum", "Jira"],
-    enlaces: [{ texto: "Ver código en GitHub", url: "https://github.com/punxovi/consultoria-informatica" }]
+    tecnologias: ["Astro", "TypeScript", "Tailwind CSS", "Node.js", "Supabase", "Scrum", "Jira"]
   },
   {
     titulo: "Dulce Gisela, app móvil",
@@ -57,8 +56,7 @@ const PROYECTOS = [
     ],
     tecnologias: ["HTML", "CSS", "JavaScript", "SEO", "GitHub"],
     enlaces: [
-      { texto: "Visitar dulcegisela.cl", url: "https://dulcegisela.cl" },
-      { texto: "Ver código en GitHub", url: "https://github.com/constanzacauchupan/dulce_gisela" }
+      { texto: "Visitar dulcegisela.cl", url: "https://dulcegisela.cl" }
     ]
   },
   {
@@ -97,7 +95,7 @@ const PROYECTOS = [
 
 /*
   OTROS PROYECTOS: salen en una lista debajo de los principales.
-  Si tienen "contexto" se abren con su detalle; si no, llevan al enlace de "url".
+  Si tienen "contexto" se abren con su detalle; si tienen "url", llevan a ese enlace; si no, se muestran como texto.
   Para hacer principal uno de estos, mueve su bloque a la lista de arriba.
 */
 const OTROS = [
@@ -169,13 +167,11 @@ const OTROS = [
   {
     titulo: "App de registro de usuarios",
     resumen: "Lista, formulario con validaciones, perfil y configuración. Trabajo en equipo, abril 2026.",
-    tecnologias: ["Flutter", "Dart"],
-    url: "https://github.com/constanzacauchupan/Solemne-desarrollo-movil"
+    tecnologias: ["Flutter", "Dart"]
   },
   {
     titulo: "Formulario móvil con validación",
     resumen: "Laboratorio en equipo, abril 2026.",
-    tecnologias: ["Flutter", "Dart"],
-    url: "https://github.com/constanzacauchupan/lab02_formulario"
+    tecnologias: ["Flutter", "Dart"]
   }
 ];
